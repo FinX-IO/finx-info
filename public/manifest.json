@@ -1,6 +1,6 @@
 {
-  "short_name": "Uniswap Info",
-  "name": "View statistics for Uniswap exchanges.",
+  "short_name": "FINX Analytics",
+  "name": "View statistics for FINX exchanges.",
   "icons": [
     {
       "src": "favicon.ico",
