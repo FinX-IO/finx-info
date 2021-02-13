@@ -1,6 +1,6 @@
 {
   "short_name": "FINX Analytics",
-  "name": "View statistics for FINX exchanges.",
+  "name": "View statistics for FINX C-DEX.",
   "icons": [
     {
       "src": "favicon.ico",
