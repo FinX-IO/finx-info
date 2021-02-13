@@ -47,12 +47,6 @@ const theme = (darkMode, color) => ({
   onlyLight: darkMode ? '#22242a' : 'transparent',
   divider: darkMode ? 'rgba(43, 43, 43, 0.435)' : 'rgba(43, 43, 43, 0.035)',
 
-  invertedLink: darkMode ? '#7A1C99' : '#D3FF7A',
-  link: darkMode ? '#D3FF7A' : '#7A1C99'
-  pink1: darkMode ? '#6ED4E6' : '#D3FF7A',
-  pink2: '#74992B',
-  pink3: '#B6E657',
-
   //primary colors
   primary1: darkMode ? '#7A1C99' : '#D3FF7A',
   primary2: darkMode ? '#3680E7' : '#D3FF7A',
