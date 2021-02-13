@@ -17,7 +17,7 @@ const theme = (darkMode, color) => ({
   panelColor: darkMode ? 'rgba(255, 255, 255, 0)' : 'rgba(255, 255, 255, 0)',
   backgroundColor: darkMode ? '#212429' : '#F7F8FA',
 
-  uniswapPink: darkMode ? '#ff007a' : 'black',
+  uniswapPink: darkMode ? '#74992B' : 'black',
 
   concreteGray: darkMode ? '#292C2F' : '#FAFAFA',
   inputBackground: darkMode ? '#1F1F1F' : '#FAFAFA',
@@ -47,20 +47,26 @@ const theme = (darkMode, color) => ({
   onlyLight: darkMode ? '#22242a' : 'transparent',
   divider: darkMode ? 'rgba(43, 43, 43, 0.435)' : 'rgba(43, 43, 43, 0.035)',
 
+  invertedLink: darkMode ? '#7A1C99' : '#D3FF7A',
+  link: darkMode ? '#D3FF7A' : '#7A1C99'
+  pink1: darkMode ? '#6ED4E6' : '#D3FF7A',
+  pink2: '#74992B',
+  pink3: '#B6E657',
+
   //primary colors
-  primary1: darkMode ? '#2172E5' : '#ff007a',
-  primary2: darkMode ? '#3680E7' : '#FF8CC3',
-  primary3: darkMode ? '#4D8FEA' : '#FF99C9',
-  primary4: darkMode ? '#376bad70' : '#F6DDE8',
-  primary5: darkMode ? '#153d6f70' : '#FDEAF1',
+  primary1: darkMode ? '#7A1C99' : '#D3FF7A',
+  primary2: darkMode ? '#3680E7' : '#D3FF7A',
+  primary3: darkMode ? '#6ED4E6' : '#D3FF7A',
+  primary4: darkMode ? '#376bad70' : '#74992B',
+  primary5: darkMode ? '#153d6f70' : '#B6E657',
 
   // color text
-  primaryText1: darkMode ? '#6da8ff' : '#ff007a',
+  primaryText1: darkMode ? '#74992B' : '#D3FF7A',
 
   // secondary colors
-  secondary1: darkMode ? '#2172E5' : '#ff007a',
-  secondary2: darkMode ? '#17000b26' : '#F6DDE8',
-  secondary3: darkMode ? '#17000b26' : '#FDEAF1',
+  secondary1: darkMode ? '#7A1C99' : '#D3FF7A',
+  secondary2: darkMode ? '#17000b26' : '#D3FF7A',
+  secondary3: darkMode ? '#17000b26' : '#D3FF7A',
 
   shadow1: darkMode ? '#000' : '#2F80ED',
 
@@ -72,7 +78,7 @@ const theme = (darkMode, color) => ({
   link: '#2172E5',
   blue: '2f80ed',
 
-  background: darkMode ? 'black' : `radial-gradient(50% 50% at 50% 50%, #ff007a30 0%, #fff 0%)`,
+  background: darkMode ? 'black' : `radial-gradient(50% 50% at 50% 50%, ##7A1C99 0%, #fff 0%)`,
 })
 
 const TextWrapper = styled(Text)`
